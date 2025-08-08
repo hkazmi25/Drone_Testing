@@ -1,0 +1,1613 @@
+{
+  "audio_volume": 3,
+  "center_location": null,
+  "db_migration_error": false,
+  "defense_status": {
+    "defense_duration": 60
+  },
+  "devices_info": {
+    "0000005f_drone": {
+      "actions": {
+        "can_cancel_defense": true,
+        "can_change_tag": true,
+        "can_friend": true,
+        "can_ignore": false,
+        "can_ldval_test": true,
+        "can_manual_defend": false,
+        "can_smart_defend": false,
+        "gps_num": 0,
+        "is_decrypted": false,
+        "is_spoofable": 0
+      },
+      "bw_khz": 3840,
+      "color_trajectory": null,
+      "defense_frequencies": [
+        "5.2GHz",
+        "5.8GHz",
+        "2.4GHz",
+        "1.5GHz"
+      ],
+      "detect_counter": 10641,
+      "detection_engine": "Library",
+      "df_marker_gps": [
+        {
+          "lat": 49.01625108488876,
+          "lng": 121.90731286427345
+        }
+      ],
+      "drone_height": 1000,
+      "fc_khz_and_count": [
+        [
+          5810500,
+          611
+        ],
+        [
+          5816500,
+          912
+        ],
+        [
+          5814500,
+          912
+        ],
+        [
+          5818500,
+          912
+        ],
+        [
+          5812500,
+          904
+        ],
+        [
+          5822500,
+          912
+        ],
+        [
+          5820500,
+          912
+        ],
+        [
+          5824500,
+          912
+        ],
+        [
+          5828500,
+          911
+        ],
+        [
+          5826500,
+          911
+        ],
+        [
+          5832500,
+          912
+        ],
+        [
+          5830500,
+          912
+        ],
+        [
+          5808500,
+          8
+        ]
+      ],
+      "fc_khz_and_count_recent": {
+        "duration": 10,
+        "fc_khz_and_count": [
+          [
+            5816500,
+            8
+          ],
+          [
+            5812500,
+            8
+          ],
+          [
+            5820500,
+            8
+          ],
+          [
+            5824500,
+            8
+          ],
+          [
+            5828500,
+            8
+          ],
+          [
+            5832500,
+            8
+          ]
+        ]
+      },
+      "finder": "DF",
+      "frequency": "5.8GHz",
+      "frequency_hop": false,
+      "gps": {
+        "lat": 49.00817114148396,
+        "lng": 121.95359161156851
+      },
+      "gps_sector": {
+        "SF1311013350": [
+          {
+            "lat": 49.008175283172335,
+            "lng": 121.90487956860011
+          },
+          {
+            "lat": 49.008855513993154,
+            "lng": 121.90502053066874
+          },
+          {
+            "lat": 49.009534695549675,
+            "lng": 121.90517280034516
+          },
+          {
+            "lat": 49.01021274698162,
+            "lng": 121.90533635996323
+          },
+          {
+            "lat": 49.01088958755991,
+            "lng": 121.90551119051035
+          },
+          {
+            "lat": 49.011565136696355,
+            "lng": 121.90569727162958
+          },
+          {
+            "lat": 49.01223931395326,
+            "lng": 121.9058945816218
+          },
+          {
+            "lat": 49.01291203905299,
+            "lng": 121.90610309744804
+          },
+          {
+            "lat": 49.0135832318876,
+            "lng": 121.9063227947321
+          },
+          {
+            "lat": 49.01425281252836,
+            "lng": 121.90655364776322
+          },
+          {
+            "lat": 49.0149207012353,
+            "lng": 121.90679562949889
+          },
+          {
+            "lat": 49.01558681846674,
+            "lng": 121.9070487115679
+          },
+          {
+            "lat": 49.01625108488876,
+            "lng": 121.90731286427345
+          },
+          {
+            "lat": 49.016913421384714,
+            "lng": 121.90758805659665
+          },
+          {
+            "lat": 49.01757374906469,
+            "lng": 121.9078742561998
+          },
+          {
+            "lat": 49.01823198927486,
+            "lng": 121.90817142943017
+          },
+          {
+            "lat": 49.01888806360694,
+            "lng": 121.90847954132383
+          },
+          {
+            "lat": 49.01954189390753,
+            "lng": 121.90879855560952
+          },
+          {
+            "lat": 49.0201934022875,
+            "lng": 121.90912843471288
+          },
+          {
+            "lat": 49.02084251113124,
+            "lng": 121.90946913976069
+          },
+          {
+            "lat": 49.02148914310599,
+            "lng": 121.90982063058527
+          },
+          {
+            "lat": 49.022133221171046,
+            "lng": 121.91018286572915
+          },
+          {
+            "lat": 49.022774668587004,
+            "lng": 121.91055580244988
+          },
+          {
+            "lat": 49.023413408924924,
+            "lng": 121.91093939672479
+          },
+          {
+            "lat": 49.02404936607546,
+            "lng": 121.91133360325614
+          },
+          {
+            "lat": 49,
+            "lng": 122
+          }
+        ]
+      },
+      "gps_trajectory": [],
+      "gui_first_detected_at": "Thu, 03 Jul 2025 23:51:20 GMT",
+      "gui_id": "00005f",
+      "gui_index": "03",
+      "handheld_display_name": "DJI Ocu4",
+      "hb_count": null,
+      "hb_count_avg": null,
+      "hb_count_std": null,
+      "home_gps": null,
+      "icon": "djiair3_mini4pro",
+      "id": "0000005f",
+      "in_defending_queue": false,
+      "is_antenna_all_band_df": false,
+      "is_hb_count_running": false,
+      "is_ldval_testing": false,
+      "is_near_probability": 0.99,
+      "is_near_probability_significant": true,
+      "is_remote_id": false,
+      "is_wifi_tab": false,
+      "ld_result": {
+        "SF1311013350": {
+          "azimuth": 285,
+          "distance": null,
+          "sensor_id": "SF1311013350"
+        }
+      },
+      "lf_error_radius": null,
+      "linked_device_id": null,
+      "model": "DJI Air 3 / Mini 4 Pro",
+      "modulation": "OFDM",
+      "near_far_result": {
+        "SF1311013350": {
+          "is_near_probability": 0.99,
+          "is_near_probability_significant": true
+        }
+      },
+      "paired_rc": null,
+      "prev_id": "0000005f",
+      "remote_id_model_name": null,
+      "seen_times": 9,
+      "sensor_ids": [
+        "SF1311013350"
+      ],
+      "sensors": [
+        "SF1311013350"
+      ],
+      "shared_names": {
+        "devices": [
+          {
+            "icon": "dji_air3",
+            "name": "Mavic Air 3"
+          },
+          {
+            "icon": "mini4_pro",
+            "name": "Mini4 Pro"
+          },
+          {
+            "icon": "avata_2",
+            "name": "Avata 2"
+          }
+        ],
+        "protocol": "DJI Ocusync 4.0"
+      },
+      "signal_power_wifi_card": null,
+      "signals": [
+        -545,
+        -1050,
+        -544,
+        -40,
+        -38,
+        -27,
+        -30,
+        -37
+      ],
+      "spoof_status": {
+        "can_cancel_spoof": true,
+        "detection_direction": 0,
+        "spoof_direction": 0,
+        "spoof_range": 500,
+        "spoofing": false
+      },
+      "status": "decrypting",
+      "switch_for_whitelist": true,
+      "tag": "default",
+      "threat": {
+        "color": 0,
+        "level": 100
+      },
+      "type": "drone",
+      "wifi_detect_counter_engine": null,
+      "wifi_detect_counter_wifi_card": null,
+      "wifi_mac_id": "",
+      "wifi_ssid": "",
+      "wl_name": null
+    },
+    "00000d_rc": {
+      "actions": {
+        "can_cancel_defense": true,
+        "can_change_tag": true,
+        "can_friend": true,
+        "can_ignore": false,
+        "can_ldval_test": false,
+        "can_manual_defend": false,
+        "can_smart_defend": false,
+        "gps_num": 0,
+        "is_decrypted": false,
+        "is_spoofable": 0
+      },
+      "bw_khz": 2880,
+      "color_trajectory": null,
+      "defense_frequencies": [
+        "5.2GHz",
+        "5.8GHz",
+        "2.4GHz",
+        "1.5GHz"
+      ],
+      "detect_counter": 12479,
+      "detection_engine": "Library",
+      "df_marker_gps": [
+        {
+          "lat": 48.99999006019693,
+          "lng": 121.95203728227592
+        }
+      ],
+      "drone_height": 1000,
+      "fc_khz_and_count": [
+        [
+          2441500,
+          8
+        ],
+        [
+          2405500,
+          6
+        ],
+        [
+          2411500,
+          7
+        ],
+        [
+          2414500,
+          8
+        ],
+        [
+          2408500,
+          6
+        ],
+        [
+          2426500,
+          2
+        ],
+        [
+          2420500,
+          7
+        ],
+        [
+          2417500,
+          8
+        ],
+        [
+          2423500,
+          8
+        ],
+        [
+          2429500,
+          3
+        ],
+        [
+          2432500,
+          6
+        ],
+        [
+          2435500,
+          9
+        ],
+        [
+          2444500,
+          3
+        ],
+        [
+          2438500,
+          5
+        ],
+        [
+          2447500,
+          1
+        ],
+        [
+          2450500,
+          1
+        ],
+        [
+          5832500,
+          165
+        ],
+        [
+          5844500,
+          78
+        ],
+        [
+          5838500,
+          163
+        ],
+        [
+          5841500,
+          74
+        ],
+        [
+          5835500,
+          224
+        ],
+        [
+          5778500,
+          626
+        ],
+        [
+          5781500,
+          487
+        ],
+        [
+          5790500,
+          381
+        ],
+        [
+          5787500,
+          179
+        ],
+        [
+          5793500,
+          461
+        ],
+        [
+          5799500,
+          395
+        ],
+        [
+          5802500,
+          318
+        ],
+        [
+          5796500,
+          508
+        ],
+        [
+          5733500,
+          529
+        ],
+        [
+          5742500,
+          385
+        ],
+        [
+          5736500,
+          588
+        ],
+        [
+          5739500,
+          505
+        ],
+        [
+          5805500,
+          113
+        ],
+        [
+          5808500,
+          114
+        ],
+        [
+          5814500,
+          138
+        ],
+        [
+          5823500,
+          79
+        ],
+        [
+          5826500,
+          133
+        ],
+        [
+          5829500,
+          163
+        ],
+        [
+          5817500,
+          198
+        ],
+        [
+          5820500,
+          124
+        ],
+        [
+          5730500,
+          893
+        ],
+        [
+          5748500,
+          347
+        ],
+        [
+          5751500,
+          305
+        ],
+        [
+          5754500,
+          407
+        ],
+        [
+          5760500,
+          284
+        ],
+        [
+          5766500,
+          197
+        ],
+        [
+          5757500,
+          470
+        ],
+        [
+          5745500,
+          243
+        ],
+        [
+          5775500,
+          511
+        ],
+        [
+          5772500,
+          361
+        ],
+        [
+          5784500,
+          197
+        ],
+        [
+          5811500,
+          94
+        ],
+        [
+          5763500,
+          249
+        ],
+        [
+          5769500,
+          248
+        ],
+        [
+          5798500,
+          1
+        ],
+        [
+          5834500,
+          2
+        ],
+        [
+          5732500,
+          1
+        ],
+        [
+          5770500,
+          2
+        ],
+        [
+          5780500,
+          1
+        ],
+        [
+          5776500,
+          1
+        ],
+        [
+          5740500,
+          2
+        ],
+        [
+          5744500,
+          1
+        ],
+        [
+          5756500,
+          1
+        ],
+        [
+          5738500,
+          1
+        ],
+        [
+          5746500,
+          1
+        ],
+        [
+          5786500,
+          1
+        ]
+      ],
+      "fc_khz_and_count_recent": {
+        "duration": 10,
+        "fc_khz_and_count": [
+          [
+            5778500,
+            3
+          ],
+          [
+            5781500,
+            2
+          ],
+          [
+            5790500,
+            11
+          ],
+          [
+            5787500,
+            3
+          ],
+          [
+            5793500,
+            10
+          ],
+          [
+            5799500,
+            6
+          ],
+          [
+            5802500,
+            3
+          ],
+          [
+            5796500,
+            10
+          ],
+          [
+            5733500,
+            9
+          ],
+          [
+            5742500,
+            10
+          ],
+          [
+            5736500,
+            10
+          ],
+          [
+            5739500,
+            10
+          ],
+          [
+            5730500,
+            10
+          ],
+          [
+            5754500,
+            1
+          ],
+          [
+            5760500,
+            3
+          ],
+          [
+            5766500,
+            2
+          ],
+          [
+            5757500,
+            1
+          ],
+          [
+            5745500,
+            1
+          ],
+          [
+            5775500,
+            4
+          ],
+          [
+            5772500,
+            1
+          ],
+          [
+            5763500,
+            1
+          ]
+        ]
+      },
+      "finder": "DF",
+      "frequency": "5.8GHz",
+      "frequency_hop": true,
+      "gps": {
+        "lat": 48.99999005134231,
+        "lng": 121.95208536822906
+      },
+      "gps_sector": {
+        "SF1311013350": [
+          {
+            "lat": 48.995883044020786,
+            "lng": 121.95245153077019
+          },
+          {
+            "lat": 48.996223563061214,
+            "lng": 121.9523857508801
+          },
+          {
+            "lat": 48.99656453259106,
+            "lng": 121.95232563531731
+          },
+          {
+            "lat": 48.99690591204717,
+            "lng": 121.95227119134975
+          },
+          {
+            "lat": 48.99724766081684,
+            "lng": 121.95222242557115
+          },
+          {
+            "lat": 48.99758973824258,
+            "lng": 121.95217934390003
+          },
+          {
+            "lat": 48.99793210362696,
+            "lng": 121.95214195157902
+          },
+          {
+            "lat": 48.998274716237454,
+            "lng": 121.95211025317421
+          },
+          {
+            "lat": 48.998617535311276,
+            "lng": 121.95208425257445
+          },
+          {
+            "lat": 48.99896052006024,
+            "lng": 121.95206395299095
+          },
+          {
+            "lat": 48.9993036296756,
+            "lng": 121.95204935695676
+          },
+          {
+            "lat": 48.99964682333293,
+            "lng": 121.9520404663265
+          },
+          {
+            "lat": 48.99999006019693,
+            "lng": 121.95203728227592
+          },
+          {
+            "lat": 49.00033329942633,
+            "lng": 121.95203980530188
+          },
+          {
+            "lat": 49.000676500178734,
+            "lng": 121.95204803522218
+          },
+          {
+            "lat": 49.001019621615484,
+            "lng": 121.95206197117543
+          },
+          {
+            "lat": 49.001362622906505,
+            "lng": 121.95208161162124
+          },
+          {
+            "lat": 49.00170546323518,
+            "lng": 121.95210695434027
+          },
+          {
+            "lat": 49.00204810180323,
+            "lng": 121.95213799643442
+          },
+          {
+            "lat": 49.00239049783549,
+            "lng": 121.95217473432717
+          },
+          {
+            "lat": 49.00273261058486,
+            "lng": 121.95221716376398
+          },
+          {
+            "lat": 49.00307439933708,
+            "lng": 121.95226527981255
+          },
+          {
+            "lat": 49.00341582341566,
+            "lng": 121.95231907686366
+          },
+          {
+            "lat": 49.003756842186625,
+            "lng": 121.9523785486315
+          },
+          {
+            "lat": 49.004097415063406,
+            "lng": 121.95244368815449
+          },
+          {
+            "lat": 49,
+            "lng": 122
+          }
+        ]
+      },
+      "gps_trajectory": [],
+      "gui_first_detected_at": "Thu, 03 Jul 2025 23:46:17 GMT",
+      "gui_id": "00000d",
+      "gui_index": "01",
+      "handheld_display_name": "DJI Ocu",
+      "hb_count": null,
+      "hb_count_avg": null,
+      "hb_count_std": null,
+      "home_gps": null,
+      "icon": "mavic_air2s_matrice_rc",
+      "id": "00000d",
+      "in_defending_queue": false,
+      "is_antenna_all_band_df": false,
+      "is_hb_count_running": false,
+      "is_ldval_testing": false,
+      "is_near_probability": 0.98,
+      "is_near_probability_significant": true,
+      "is_remote_id": false,
+      "is_wifi_tab": false,
+      "ld_result": {
+        "SF1311013350": {
+          "azimuth": 270,
+          "distance": null,
+          "sensor_id": "SF1311013350"
+        }
+      },
+      "lf_error_radius": null,
+      "linked_device_id": null,
+      "model": "Mavic 3 / Mavic Air 2s",
+      "modulation": "OFDM",
+      "near_far_result": {
+        "SF1311013350": {
+          "is_near_probability": 0.98,
+          "is_near_probability_significant": true
+        }
+      },
+      "paired_rc": null,
+      "prev_id": "00000d",
+      "remote_id_model_name": null,
+      "seen_times": 12,
+      "sensor_ids": [
+        "SF1311013350"
+      ],
+      "sensors": [
+        "SF1311013350"
+      ],
+      "shared_names": {
+        "devices": [
+          {
+            "icon": "mavic_air_2s_rc",
+            "name": "Mavic Air 2S"
+          },
+          {
+            "icon": "matrice_rc",
+            "name": "Matrice 300"
+          },
+          {
+            "icon": "mavic3_rc",
+            "name": "Mavic 3"
+          },
+          {
+            "icon": "mini3pro_rc",
+            "name": "Mini 3 Pro"
+          },
+          {
+            "icon": "m30T_rc",
+            "name": "M30T-RC"
+          },
+          {
+            "icon": "mavic_3_pro_rc",
+            "name": "Mavic 3 Pro"
+          }
+        ],
+        "protocol": "DJI Ocusync 3.0"
+      },
+      "signal_power_wifi_card": null,
+      "signals": [
+        -39,
+        -43,
+        -34,
+        -38,
+        -38,
+        -38,
+        -49,
+        -50
+      ],
+      "spoof_status": {
+        "can_cancel_spoof": true,
+        "detection_direction": 0,
+        "spoof_direction": 0,
+        "spoof_range": 500,
+        "spoofing": false
+      },
+      "status": "decrypting",
+      "switch_for_whitelist": false,
+      "tag": "default",
+      "threat": {
+        "color": 0,
+        "level": 100
+      },
+      "type": "rc",
+      "wifi_detect_counter_engine": null,
+      "wifi_detect_counter_wifi_card": null,
+      "wifi_mac_id": "",
+      "wifi_ssid": "",
+      "wl_name": null
+    },
+    "000311_drone": {
+      "actions": {
+        "can_cancel_defense": true,
+        "can_change_tag": true,
+        "can_friend": true,
+        "can_ignore": false,
+        "can_ldval_test": true,
+        "can_manual_defend": true,
+        "can_smart_defend": true,
+        "gps_num": 0,
+        "is_decrypted": true,
+        "is_spoofable": 0
+      },
+      "bw_khz": 19200,
+      "color_trajectory": null,
+      "defense_frequencies": [
+        "5.2GHz",
+        "5.8GHz",
+        "2.4GHz",
+        "1.5GHz"
+      ],
+      "detect_counter": 10896,
+      "detection_engine": "Library",
+      "df_marker_gps": [
+        {
+          "lat": 48.99996024080261,
+          "lng": 121.9040746028392
+        }
+      ],
+      "drone_height": 1000,
+      "fc_khz_and_count": [
+        [
+          5735500,
+          640
+        ],
+        [
+          5737500,
+          640
+        ],
+        [
+          5739500,
+          640
+        ],
+        [
+          5741500,
+          640
+        ],
+        [
+          5749500,
+          640
+        ],
+        [
+          5747500,
+          640
+        ],
+        [
+          5745500,
+          640
+        ],
+        [
+          5751500,
+          536
+        ],
+        [
+          5743500,
+          640
+        ],
+        [
+          5740500,
+          640
+        ],
+        [
+          5736500,
+          640
+        ],
+        [
+          5742500,
+          640
+        ],
+        [
+          5738500,
+          640
+        ],
+        [
+          5748500,
+          632
+        ],
+        [
+          5746500,
+          640
+        ],
+        [
+          5744500,
+          640
+        ],
+        [
+          5750500,
+          624
+        ],
+        [
+          5770500,
+          8
+        ],
+        [
+          5772500,
+          8
+        ],
+        [
+          5774500,
+          8
+        ],
+        [
+          5776500,
+          8
+        ],
+        [
+          5778500,
+          8
+        ],
+        [
+          5780500,
+          8
+        ],
+        [
+          5782500,
+          8
+        ],
+        [
+          5784500,
+          8
+        ],
+        [
+          5786500,
+          8
+        ],
+        [
+          5771500,
+          8
+        ],
+        [
+          5773500,
+          8
+        ],
+        [
+          5775500,
+          8
+        ],
+        [
+          5783500,
+          8
+        ],
+        [
+          5777500,
+          8
+        ],
+        [
+          5781500,
+          8
+        ],
+        [
+          5785500,
+          8
+        ],
+        [
+          5787500,
+          8
+        ],
+        [
+          5779500,
+          8
+        ]
+      ],
+      "fc_khz_and_count_recent": {
+        "duration": 10,
+        "fc_khz_and_count": [
+          [
+            5740500,
+            8
+          ],
+          [
+            5736500,
+            8
+          ],
+          [
+            5742500,
+            8
+          ],
+          [
+            5738500,
+            8
+          ],
+          [
+            5748500,
+            8
+          ],
+          [
+            5746500,
+            8
+          ],
+          [
+            5744500,
+            8
+          ],
+          [
+            5750500,
+            8
+          ]
+        ]
+      },
+      "finder": "DF",
+      "frequency": "5.8GHz",
+      "frequency_hop": false,
+      "gps": {
+        "lat": 48.999990028628496,
+        "lng": 121.95203070237736
+      },
+      "gps_sector": {
+        "SF1311013350": [
+          {
+            "lat": 48.99174655319081,
+            "lng": 121.90491093901768
+          },
+          {
+            "lat": 48.99242753694911,
+            "lng": 121.90477873940969
+          },
+          {
+            "lat": 48.993109426276774,
+            "lng": 121.90465786498366
+          },
+          {
+            "lat": 48.993792140071434,
+            "lng": 121.90454833058145
+          },
+          {
+            "lat": 48.994475597129295,
+            "lng": 121.90445014969781
+          },
+          {
+            "lat": 48.995159716154824,
+            "lng": 121.90436333447857
+          },
+          {
+            "lat": 48.995844415770364,
+            "lng": 121.90428789571911
+          },
+          {
+            "lat": 48.99652961452588,
+            "lng": 121.90422384286262
+          },
+          {
+            "lat": 48.997215230908594,
+            "lng": 121.90417118399901
+          },
+          {
+            "lat": 48.99790118335265,
+            "lng": 121.90412992586353
+          },
+          {
+            "lat": 48.998587390248886,
+            "lng": 121.90410007383582
+          },
+          {
+            "lat": 48.999273769954456,
+            "lng": 121.90408163193905
+          },
+          {
+            "lat": 48.99996024080261,
+            "lng": 121.9040746028392
+          },
+          {
+            "lat": 49.00064672111234,
+            "lng": 121.90407898784458
+          },
+          {
+            "lat": 49.001333129198166,
+            "lng": 121.90409478690533
+          },
+          {
+            "lat": 49.00201938337981,
+            "lng": 121.90412199861332
+          },
+          {
+            "lat": 49.00270540199194,
+            "lng": 121.90416062020196
+          },
+          {
+            "lat": 49.003391103393874,
+            "lng": 121.90421064754653
+          },
+          {
+            "lat": 49.00407640597932,
+            "lng": 121.90427207516416
+          },
+          {
+            "lat": 49.00476122818606,
+            "lng": 121.90434489621445
+          },
+          {
+            "lat": 49.00544548850573,
+            "lng": 121.90442910250007
+          },
+          {
+            "lat": 49.006129105493414,
+            "lng": 121.90452468446738
+          },
+          {
+            "lat": 49.006811997777476,
+            "lng": 121.90463163120742
+          },
+          {
+            "lat": 49.00749408406915,
+            "lng": 121.90474993045707
+          },
+          {
+            "lat": 49.008175283172335,
+            "lng": 121.90487956860011
+          },
+          {
+            "lat": 49,
+            "lng": 122
+          }
+        ]
+      },
+      "gps_trajectory": [],
+      "gui_first_detected_at": "Thu, 03 Jul 2025 23:46:37 GMT",
+      "gui_id": "000311",
+      "gui_index": "02",
+      "handheld_display_name": "DJI Ocu",
+      "hb_count": 22,
+      "hb_count_avg": 0.6470588235294119,
+      "hb_count_std": 0.8000865005138497,
+      "home_gps": null,
+      "icon": "mavic3_mavicair2s",
+      "id": "000311",
+      "in_defending_queue": false,
+      "is_antenna_all_band_df": false,
+      "is_hb_count_running": false,
+      "is_ldval_testing": false,
+      "is_near_probability": 0.99,
+      "is_near_probability_significant": true,
+      "is_remote_id": false,
+      "is_wifi_tab": false,
+      "ld_result": {
+        "SF1311013350": {
+          "azimuth": 270,
+          "distance": null,
+          "sensor_id": "SF1311013350"
+        }
+      },
+      "lf_error_radius": null,
+      "linked_device_id": null,
+      "model": "Mavic 3 / Mavic Air 2s (Wideband)",
+      "modulation": "OFDM",
+      "near_far_result": {
+        "SF1311013350": {
+          "is_near_probability": 0.99,
+          "is_near_probability_significant": true
+        }
+      },
+      "paired_rc": null,
+      "prev_id": "000311",
+      "remote_id_model_name": null,
+      "seen_times": 10,
+      "sensor_ids": [
+        "SF1311013350"
+      ],
+      "sensors": [
+        "SF1311013350"
+      ],
+      "shared_names": {
+        "devices": [
+          {
+            "icon": "mavic_air_2s",
+            "name": "Mavic Air 2s"
+          },
+          {
+            "icon": "mavic3",
+            "name": "Mavic 3"
+          },
+          {
+            "icon": "avata",
+            "name": "AVATA"
+          },
+          {
+            "icon": "mini3pro",
+            "name": "Mini 3 Pro"
+          },
+          {
+            "icon": "m30T",
+            "name": "M30T-Drone"
+          },
+          {
+            "icon": "mavic_3_pro",
+            "name": "Mavic 3 Pro"
+          },
+          {
+            "icon": "mini2",
+            "name": "Mini 2"
+          }
+        ],
+        "protocol": "DJI Ocusync 3.0"
+      },
+      "signal_power_wifi_card": null,
+      "signals": [
+        -42,
+        -55,
+        -44,
+        -40,
+        -37,
+        -30,
+        -35,
+        -39
+      ],
+      "spoof_status": {
+        "can_cancel_spoof": true,
+        "detection_direction": 0,
+        "spoof_direction": 0,
+        "spoof_range": 500,
+        "spoofing": false
+      },
+      "status": "decrypted",
+      "switch_for_whitelist": true,
+      "tag": "default",
+      "threat": {
+        "color": 0,
+        "level": 100
+      },
+      "type": "drone",
+      "wifi_detect_counter_engine": null,
+      "wifi_detect_counter_wifi_card": null,
+      "wifi_mac_id": "",
+      "wifi_ssid": "",
+      "wl_name": null
+    }
+  },
+  "df_switch": false,
+  "disable_far_alarm": false,
+  "disable_headphone": false,
+  "disable_vibration": false,
+  "drone_list_enabled": false,
+  "enable_near_far": true,
+  "has_danger": 1,
+  "hide_defense_features": false,
+  "hide_sensor_status": false,
+  "hide_spectrum_page": false,
+  "is_all_expired": false,
+  "is_all_locked": false,
+  "is_anchor_server": false,
+  "is_handheld_server": false,
+  "is_local_mode": true,
+  "is_remote_id_enabled": false,
+  "is_unknown_wifi_enabled": false,
+  "lf_radius": 0,
+  "mute_timer_toggle": null,
+  "non_ai_ignorable": true,
+  "nondf_result": {},
+  "offline_map_loaded": false,
+  "online_map_enabled": true,
+  "remote_id_devices_info": {},
+  "satellite_map": false,
+  "sensors_info": {
+    "SF1311013350": {
+      "ai_enabled": true,
+      "auto_defending": false,
+      "auto_defense_status": false,
+      "auto_fpv_scan_capture": false,
+      "auto_spoof_status": false,
+      "auto_spoofing": false,
+      "capture_status": false,
+      "compass": 42,
+      "compass_enabled": true,
+      "configured_gps": true,
+      "defense_delay_countdown": -1751587210,
+      "defense_radius": 3000,
+      "detection_radius": 7000,
+      "detection_range_gain": 4,
+      "df_cone_sectors": {},
+      "disk_has_space": true,
+      "dv_status": false,
+      "enable_fpv_scan": false,
+      "geofence_radius": 7000,
+      "gps": {
+        "lat": 49,
+        "lng": 122
+      },
+      "gps_limit": false,
+      "gps_signal": [
+        8
+      ],
+      "gps_signal_good": false,
+      "has_tdd_pa": false,
+      "im_status": false,
+      "ip": "10.8.1.2",
+      "is_agx": true,
+      "is_anchor_server": false,
+      "is_df_enabled": true,
+      "is_geolocator": false,
+      "is_handheld": false,
+      "is_hide_detection": false,
+      "is_rmservice_on": false,
+      "is_wideband_enabled": false,
+      "last_online": null,
+      "license_language": "en",
+      "ltr": "LR",
+      "manual_spoof_status": false,
+      "mass_defense_status": false,
+      "mass_spoof_status": false,
+      "mcu_status": "connected",
+      "mgmt_details": {
+        "Module 1": {
+          "battery_info": {},
+          "cpu_temp": 56.5,
+          "cpu_usage": 84.6,
+          "detecting_frequency": {
+            "1": [
+              "2.4GHz",
+              "5.8GHz"
+            ]
+          },
+          "disk_io_usage": {
+            "io_read": "0.0",
+            "io_write": "29.0"
+          },
+          "disk_usage": "2.8G/110.9G",
+          "engine_status": "connected",
+          "fixed_gain": {
+            "1": null
+          },
+          "gpu_temp": 53,
+          "gpu_usage": 0,
+          "has_internet": true,
+          "is_4g_connected": null,
+          "is_handheld": false,
+          "latency": null,
+          "mem_usage": 26.5,
+          "mgmt_status": "connected",
+          "network_usage": {
+            "LAN1": {
+              "rx": 26.33,
+              "tx": 0.1
+            },
+            "LAN2": {
+              "rx": 0.005,
+              "tx": 0.05
+            }
+          },
+          "power_consumption": 0,
+          "power_options_status": "performance_high",
+          "scan_frequency": {
+            "1": []
+          },
+          "software_build": "3916",
+          "software_version": "V4.5.0",
+          "som_status": {
+            "1": "connected"
+          },
+          "som_temp": {
+            "1": 50.9
+          },
+          "system_time": "03/07/2025 17:00:10 PDT",
+          "uptime": 4886.08,
+          "xpu_freq": 2265
+        }
+      },
+      "nfz_spoof_status": {
+        "direction_spoof_inprogress": false,
+        "gnss_spoof_inprogress": false,
+        "nfz_height": 100,
+        "nfz_inprogress": false,
+        "nfz_latitude": 51.47002,
+        "nfz_longitude": -0.454295
+      },
+      "noise_list": [],
+      "orientations": [
+        {
+          "lat": 49.062932756408536,
+          "lng": 122
+        },
+        {
+          "lat": 49.058136454447094,
+          "lng": 122.03675199248208
+        },
+        {
+          "lat": 49.0444802769521,
+          "lng": 122.06789018777638
+        },
+        {
+          "lat": 49.02404936607546,
+          "lng": 122.08866639674385
+        },
+        {
+          "lat": 48.99996024080261,
+          "lng": 122.09592539716078
+        },
+        {
+          "lat": 48.97588276070022,
+          "lng": 122.08858069112036
+        },
+        {
+          "lat": 48.955479963792854,
+          "lng": 122.06776898153271
+        },
+        {
+          "lat": 48.941851900324785,
+          "lng": 122.03666628659197
+        },
+        {
+          "lat": 48.93706724359147,
+          "lng": 122
+        },
+        {
+          "lat": 48.941851900324785,
+          "lng": 121.96333371340803
+        },
+        {
+          "lat": 48.955479963792854,
+          "lng": 121.93223101846728
+        },
+        {
+          "lat": 48.97588276070022,
+          "lng": 121.91141930887963
+        },
+        {
+          "lat": 48.99996024080261,
+          "lng": 121.9040746028392
+        },
+        {
+          "lat": 49.02404936607546,
+          "lng": 121.91133360325614
+        },
+        {
+          "lat": 49.0444802769521,
+          "lng": 121.93210981222362
+        },
+        {
+          "lat": 49.058136454447094,
+          "lng": 121.9632480075179
+        }
+      ],
+      "ou": "default",
+      "rid_status": "connected",
+      "rmservice_mgmt_port": null,
+      "rmservice_port": null,
+      "sanity_test_status": false,
+      "sectors": null,
+      "sectors_label": null,
+      "sensor_name": "SF1311013350",
+      "show_skytracker_toggle": false,
+      "skytracker_mode": 1,
+      "spoof_delay_countdown": 0,
+      "status": "detecting",
+      "termdate": 1759247999,
+      "termdate_sw": 1759247999,
+      "wifi_mode": "standard",
+      "wifi_status": "disconnected"
+    }
+  },
+  "setting_mode": false,
+  "show_enhanced_features": true,
+  "system_time": 1751587210,
+  "tak_ip": "",
+  "tak_port": 8087,
+  "total_devices": 3,
+  "total_remote_ids": 0,
+  "total_wifi_devices": 0,
+  "unknown_wifi_devices_info": {},
+  "upgrade_status": {},
+  "user_locations": {},
+  "version": "V4.5.0.3916"
+}
